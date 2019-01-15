@@ -1,0 +1,17 @@
+<div class="content">
+    <div class="row">
+        <a>Looks like you're part of the following group/s;</a>
+        <a *ngFor="let names of groups"> {{names.displayName}}</a>
+    </div>
+
+    <div class="row">
+        <button (click)="accountsubmit()">Click here</button>
+    </div>
+
+    <div class="row">
+        <div class="row">
+            <a>  these are the groups you could belong too<br>  </a>
+        </div>
+        <a *ngFor="let things of securityGroup"> {{things.displayName}}<br></a>
+    </div>
+</div>

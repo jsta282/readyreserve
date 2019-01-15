@@ -1,0 +1,23 @@
+.main {
+    color: greenyellow;
+}
+
+.search-form {
+    position: absolute;
+    right: 20px;
+}
+
+.mat-toolbar-multiple-rows {
+    font-size: 10pt;
+    height: 32px;
+}
+
+.topspacer {
+    margin: 30px;
+}
+
+.person-form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}

@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+@import '~@angular/material/theming';
+
+$custom-typography: mat-typography-config($font-family: '"Raleway", sans-serif;');
+@include mat-core($custom-typography);
+@include mat-core();
+
+$primary: mat-palette($mat-green, 800);
+$accent: mat-palette($mat-orange,200);
+$theme: mat-light-theme($primary, $accent);
+@include angular-material-theme($theme);
+
+.body {
+    background-color: #F2F2F2;
+}
